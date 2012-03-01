@@ -29,7 +29,6 @@ PLATFORMS
 
 DEPENDENCIES
   fakeweb
-  httparty
   rcov
   rspec (>= 2.4.0)
   tmdb_party!
