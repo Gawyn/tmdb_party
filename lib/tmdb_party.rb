@@ -14,7 +14,7 @@ module TMDBParty
     include HTTParty::Icebox
     cache :store => 'file', :timeout => 120, :location => Dir.tmpdir
 
-    base_uri 'http://api.themoviedb.org/2.1'
+    base_uri 'http://api.themoviedb.org/3'
     format :json
     
     def initialize(key, lang = 'en')
